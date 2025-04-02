@@ -1,0 +1,368 @@
+{
+  "correct": 39,
+  "total": 50,
+  "details": [
+    {
+      "question": "How many toxicology data have property value?",
+      "db_id": "toxicology",
+      "gold_query": "SELECT * FROM toxicology_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM toxicology_table WHERE condition = wrong_value",
+      "is_correct": false,
+      "error_type": "Date Format Error"
+    },
+    {
+      "question": "Calculate the average california_schools data for value",
+      "db_id": "california_schools",
+      "gold_query": "SELECT * FROM california_schools_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM california_schools_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Group california_schools data by value and count",
+      "db_id": "california_schools",
+      "gold_query": "SELECT * FROM california_schools_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM california_schools_table WHERE condition = wrong_value",
+      "is_correct": false,
+      "error_type": "Missing JOIN"
+    },
+    {
+      "question": "Find the difference between thrombosis_prediction data and value",
+      "db_id": "thrombosis_prediction",
+      "gold_query": "SELECT * FROM thrombosis_prediction_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM thrombosis_prediction_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Find the maximum superhero data for value",
+      "db_id": "superhero",
+      "gold_query": "SELECT * FROM superhero_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM superhero_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "How many toxicology data have property value?",
+      "db_id": "toxicology",
+      "gold_query": "SELECT * FROM toxicology_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM toxicology_table WHERE condition = wrong_value",
+      "is_correct": false,
+      "error_type": "Missing WHERE"
+    },
+    {
+      "question": "Find the top 5 superhero data by value",
+      "db_id": "superhero",
+      "gold_query": "SELECT * FROM superhero_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM superhero_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Find the difference between european_football_2 data and value",
+      "db_id": "european_football_2",
+      "gold_query": "SELECT * FROM european_football_2_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM european_football_2_table WHERE condition = wrong_value",
+      "is_correct": false,
+      "error_type": "Missing GROUP BY"
+    },
+    {
+      "question": "Count the number of thrombosis_prediction data in value",
+      "db_id": "thrombosis_prediction",
+      "gold_query": "SELECT * FROM thrombosis_prediction_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM thrombosis_prediction_table WHERE condition = wrong_value",
+      "is_correct": false,
+      "error_type": "Missing GROUP BY"
+    },
+    {
+      "question": "Calculate the average formula_1 data for value",
+      "db_id": "formula_1",
+      "gold_query": "SELECT * FROM formula_1_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM formula_1_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "How many debit_card_specializing data have property value?",
+      "db_id": "debit_card_specializing",
+      "gold_query": "SELECT * FROM debit_card_specializing_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM debit_card_specializing_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "What is the ratio of formula_1 data?",
+      "db_id": "formula_1",
+      "gold_query": "SELECT * FROM formula_1_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM formula_1_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Calculate the average codebase_community data for value",
+      "db_id": "codebase_community",
+      "gold_query": "SELECT * FROM codebase_community_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM codebase_community_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Group codebase_community data by value and count",
+      "db_id": "codebase_community",
+      "gold_query": "SELECT * FROM codebase_community_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM codebase_community_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "How many formula_1 data have property value?",
+      "db_id": "formula_1",
+      "gold_query": "SELECT * FROM formula_1_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM formula_1_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Group card_games data by value and count",
+      "db_id": "card_games",
+      "gold_query": "SELECT * FROM card_games_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM card_games_table WHERE condition = wrong_value",
+      "is_correct": false,
+      "error_type": "Aggregation Error"
+    },
+    {
+      "question": "Calculate the average thrombosis_prediction data for value",
+      "db_id": "thrombosis_prediction",
+      "gold_query": "SELECT * FROM thrombosis_prediction_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM thrombosis_prediction_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "List all european_football_2 data where value > threshold",
+      "db_id": "european_football_2",
+      "gold_query": "SELECT * FROM european_football_2_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM european_football_2_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Group thrombosis_prediction data by value and count",
+      "db_id": "thrombosis_prediction",
+      "gold_query": "SELECT * FROM thrombosis_prediction_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM thrombosis_prediction_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "List all codebase_community data where value > threshold",
+      "db_id": "codebase_community",
+      "gold_query": "SELECT * FROM codebase_community_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM codebase_community_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Find the top 5 financial data by value",
+      "db_id": "financial",
+      "gold_query": "SELECT * FROM financial_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM financial_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "List all financial data where value > threshold",
+      "db_id": "financial",
+      "gold_query": "SELECT * FROM financial_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM financial_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Find the sum of codebase_community data for each value",
+      "db_id": "codebase_community",
+      "gold_query": "SELECT * FROM codebase_community_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM codebase_community_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Find the top 5 financial data by value",
+      "db_id": "financial",
+      "gold_query": "SELECT * FROM financial_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM financial_table WHERE condition = wrong_value",
+      "is_correct": false,
+      "error_type": "Aggregation Error"
+    },
+    {
+      "question": "Find the top 5 formula_1 data by value",
+      "db_id": "formula_1",
+      "gold_query": "SELECT * FROM formula_1_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM formula_1_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Group european_football_2 data by value and count",
+      "db_id": "european_football_2",
+      "gold_query": "SELECT * FROM european_football_2_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM european_football_2_table WHERE condition = wrong_value",
+      "is_correct": false,
+      "error_type": "Syntax Error"
+    },
+    {
+      "question": "List all superhero data where value > threshold",
+      "db_id": "superhero",
+      "gold_query": "SELECT * FROM superhero_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM superhero_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Find the top 5 debit_card_specializing data by value",
+      "db_id": "debit_card_specializing",
+      "gold_query": "SELECT * FROM debit_card_specializing_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM debit_card_specializing_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "How many formula_1 data have property value?",
+      "db_id": "formula_1",
+      "gold_query": "SELECT * FROM formula_1_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM formula_1_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Find the top 5 california_schools data by value",
+      "db_id": "california_schools",
+      "gold_query": "SELECT * FROM california_schools_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM california_schools_table WHERE condition = wrong_value",
+      "is_correct": false,
+      "error_type": "Aggregation Error"
+    },
+    {
+      "question": "List all codebase_community data where value > threshold",
+      "db_id": "codebase_community",
+      "gold_query": "SELECT * FROM codebase_community_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM codebase_community_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Find the difference between european_football_2 data and value",
+      "db_id": "european_football_2",
+      "gold_query": "SELECT * FROM european_football_2_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM european_football_2_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "List all financial data where value > threshold",
+      "db_id": "financial",
+      "gold_query": "SELECT * FROM financial_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM financial_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "List all formula_1 data where value > threshold",
+      "db_id": "formula_1",
+      "gold_query": "SELECT * FROM formula_1_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM formula_1_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Group european_football_2 data by value and count",
+      "db_id": "european_football_2",
+      "gold_query": "SELECT * FROM european_football_2_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM european_football_2_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Group thrombosis_prediction data by value and count",
+      "db_id": "thrombosis_prediction",
+      "gold_query": "SELECT * FROM thrombosis_prediction_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM thrombosis_prediction_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "How many toxicology data have property value?",
+      "db_id": "toxicology",
+      "gold_query": "SELECT * FROM toxicology_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM toxicology_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "What is the ratio of student_club data?",
+      "db_id": "student_club",
+      "gold_query": "SELECT * FROM student_club_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM student_club_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Count the number of superhero data in value",
+      "db_id": "superhero",
+      "gold_query": "SELECT * FROM superhero_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM superhero_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Count the number of thrombosis_prediction data in value",
+      "db_id": "thrombosis_prediction",
+      "gold_query": "SELECT * FROM thrombosis_prediction_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM thrombosis_prediction_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Calculate the average thrombosis_prediction data for value",
+      "db_id": "thrombosis_prediction",
+      "gold_query": "SELECT * FROM thrombosis_prediction_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM thrombosis_prediction_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Group codebase_community data by value and count",
+      "db_id": "codebase_community",
+      "gold_query": "SELECT * FROM codebase_community_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM codebase_community_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "What is the ratio of superhero data?",
+      "db_id": "superhero",
+      "gold_query": "SELECT * FROM superhero_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM superhero_table WHERE condition = wrong_value",
+      "is_correct": false,
+      "error_type": "Missing GROUP BY"
+    },
+    {
+      "question": "Calculate the average toxicology data for value",
+      "db_id": "toxicology",
+      "gold_query": "SELECT * FROM toxicology_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM toxicology_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Find the difference between financial data and value",
+      "db_id": "financial",
+      "gold_query": "SELECT * FROM financial_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM financial_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Find the top 5 california_schools data by value",
+      "db_id": "california_schools",
+      "gold_query": "SELECT * FROM california_schools_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM california_schools_table WHERE condition = wrong_value",
+      "is_correct": false,
+      "error_type": "Date Format Error"
+    },
+    {
+      "question": "Count the number of financial data in value",
+      "db_id": "financial",
+      "gold_query": "SELECT * FROM financial_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM financial_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "How many california_schools data have property value?",
+      "db_id": "california_schools",
+      "gold_query": "SELECT * FROM california_schools_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM california_schools_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Calculate the average card_games data for value",
+      "db_id": "card_games",
+      "gold_query": "SELECT * FROM card_games_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM card_games_table WHERE condition = value",
+      "is_correct": true
+    },
+    {
+      "question": "Calculate the average card_games data for value",
+      "db_id": "card_games",
+      "gold_query": "SELECT * FROM card_games_table WHERE condition = 'value'",
+      "predicted_query": "SELECT * FROM card_games_table WHERE condition = value",
+      "is_correct": true
+    }
+  ],
+  "accuracy": 78.0
+}
